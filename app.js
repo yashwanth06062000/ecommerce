@@ -13,6 +13,7 @@ const Cart = require('./models/cart');
 const CartItem = require('./models/cart-item');
 
 const app = express();
+dotenv.config()
 app.use(cors())
 
 app.set('view engine', 'ejs');
