@@ -2,7 +2,7 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const dotenv=require('./.env')
+const dotenv=require('dotenv')
 var cors = require('cors')
 
 const errorController = require('./controllers/error');
