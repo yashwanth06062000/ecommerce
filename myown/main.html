@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+<div id="music">
+    <header>
+        
+            <ul>
+                <li><a href="./home.html"class="nav-li">Home</a></li>
+                <li><a href="./main.html"class="nav-li">Store</a></li>
+                <li><a href="./aboutus.html"class="nav-li">AboutUS</a></li>
+               
+                <a href="#cart" class="cart-holder">cart<span class='cart-count'>0</span></a>
+            </ul>
+        
+        <h1>The Generics</h1>
+    </header>
+    <h1>Music</h1>
+    
+    <section class="music">
+        
+        <div class="product" id="Album1">
+            <h3>Album1</h3>
+            <div class="imagediv">
+                <img src="./img/Album 1.png" alt=" 1st album" class="prodimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>12.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div class="product" id="Album2">
+            <h3>Album2</h3>
+            <div class="imagediv">
+                <img src="./img/Album 2.png" alt=" 2nd album" class="prodimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>13.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div class="product" id="Album3">
+            <h3>Album3</h3>
+            <div class="imagediv">
+                <img src="./img/Album 3.png" alt=" 3rd album" class="prodimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>14.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div class="product" id="Album4">
+            <h3>Album4</h3>
+            <div class="imagediv">
+                <img src="./img/Album 4.png" alt=" 4th album" class="prodimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>15.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+        
+
+    </section>
+    <h1>Merch</h1>
+    <section class="merch">
+        <div class="product" id="Tshirt">
+            <h3>Tshirt</h3>
+            <div class="imagediv">
+                <img src="./img/Shirt.png" alt=" T shirt" class="prodimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>16.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div class="product" id="Coffemug">
+            <h3>coffe cup</h3>
+            <div class="imagediv">
+                <img src="./img/Cofee.png" alt="Coffe cup" class="coffeimg">
+            </div>
+            <div class="productdetails">
+                <span>$<span>17.99</span></span>
+                <button class="shopaddingbutton" type="button">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="container">
+        <h2>CART</h2>
+        <button class="cancel">X</button>
+        <div class="cart-row cart-header">
+            <span class='cart-item cart-column'>ITEM</span>
+            <span class='cart-price cart-column'>PRICE</span>
+            <span class='cart-quantity cart-column'>QUANTITY</span>
+        </div>
+        <div class='cart-items'>
+            
+        </div>
+        <div class="cart-total">
+            <span>
+                <span class='total-title'> <strong>Total</strong>
+                    </span>
+                $<span id='total-value'>0</span>
+            </span>
+        </div>
+        <button class='purchase-btn' type='button'>PURCHASE</button>
+      
+    </section>
+    <button class="cart-btn-bottom"> <a href="#cart" class="cart-bottom">See The cart</a></button>
+</div> 
+    
+    <div id="container"></div>
+    <footer>
+        <span class="generics">The Generics</span>
+        <a href="#youtube"><img src="./img/6260efc8fc9a9002669d2f4ad9956cc0.jpeg" alt="youtube" class="youtube"></a>
+        <a href="#spotify"><img src="./img/Spotify Logo.png" alt="spotify" class="spotify"></a>
+        <a href="facebook"><img src="./img/Facebook Logo.png" alt="facebook" class="facebook"></a>
+    </footer>
+    
+</body>
+</html>
