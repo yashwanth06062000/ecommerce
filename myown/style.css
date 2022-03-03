@@ -68,7 +68,7 @@ header h1{
     color: white;
     height:150px;
 }
-.music{
+.music123{
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -80,9 +80,9 @@ header h1{
 }
 
 .product{
-    /* border: 2px;
+    border: 2px;
     border-style: solid;
-    border-color: black; */
+    border-color: black;
     width:250px;
     overflow: hidden;
     height: 300px;
@@ -400,4 +400,22 @@ footer{
     color:#56CCF2;
     font-size: 16px;
     font-weight:700;
+}
+.pagination
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+.pagination a{
+    text-decoration:none;
+    color: #56CCF2;
+    padding: 0.5rem;
+    border:1px solid #56CCF2;
+    border-radius: 1px;
+    margin:0 1rem;
+}
+.pagination a:hover,
+.pagination a:active{
+    background-color: #56CCF2;
+    color: white;
 }
