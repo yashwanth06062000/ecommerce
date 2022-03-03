@@ -22,8 +22,8 @@ app.set('views', 'views');
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
-app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({entended:false}))
+//app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({entended:false}))
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
@@ -76,3 +76,4 @@ sequelize
 
   //// help in creating of .env file
   ///github pushing all the code in new rep i have 0 knowledge
+  
