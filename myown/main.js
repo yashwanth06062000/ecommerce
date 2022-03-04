@@ -213,6 +213,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
              product.appendChild(imgdiv)
              const prodde=document.createElement('div')
              prodde.classList.add("productdetails")
+             const dollar=document.createElement("span")
+             dollar.innerText="$"
+             prodde.appendChild(dollar)
              const pspa=document.createElement("span")
              pspa.innerText=products[i].price;
              prodde.appendChild(pspa)
